@@ -16,6 +16,7 @@ import { Component } from "@angular/core";
 
     h2 {
         font-size: 1rem;
+        font-color: red;
     }
     `]
 })
