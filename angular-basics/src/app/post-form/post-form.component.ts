@@ -32,7 +32,7 @@ export class PostFormComponent implements OnInit {
   }
 
   focusTitle(){
-    console.log(this.inputRef)
+    this.inputRef.nativeElement.focus()
   }
 
 }
